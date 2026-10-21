@@ -103,3 +103,15 @@ Settings can be provided as environment variables or in a `.env` file:
 ![Terminal preview of a successful scraper run](docs/terminal-demo.svg)
 
 The preview shows the Rich status and progress display used by the command-line pipeline.
+
+## ⚠️ Disclaimer
+
+This project is intended for **educational purposes, personal portfolio demonstration, and authorized testing only**.
+
+* The author of this repository does not encourage, condone, or promote web scraping, data harvesting, or automated interactions that violate target websites' Terms of Service or `robots.txt` policies.
+* Users are solely responsible for ensuring that their use of this software complies with all local, state, and federal laws, as well as the specific terms of service of any third-party platforms accessed.
+* The author assumes no liability and is not responsible for any misuse, account bans, or legal damages arising from the use of this software.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
