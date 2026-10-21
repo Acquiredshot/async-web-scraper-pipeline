@@ -1,6 +1,21 @@
 # Playwright Scraping Pipeline
 
-A small Python pipeline that extracts quote data with Playwright, stores it in SQLite, and writes CSV/JSON reports. The default run is headless and emits readable Rich terminal output alongside structured JSON logs.
+# 🕷️ Playwright Async Data Pipeline
+
+A high-performance, asynchronous web automation and data extraction engine built with Python and Microsoft Playwright. 
+
+This application demonstrates production-ready web scraping patterns by capturing dynamic Single Page Application (SPA) data directly via low-level network request interception—bypassing fragile DOM parsing and significantly speeding up execution. It features a headful/headless execution toggle, asset optimization (blocking heavy images/CSS), local database persistence using AioSQLite, automated CSV/JSON export generation, and a real-time Streamlit inspection dashboard.
+
+---
+
+### ✨ Key Features
+* **Network Response Interception:** Intercepts raw JSON payloads directly from API endpoints (`page.on('response')`) for reliable data parsing.
+* **Async & Resource-Optimized:** Utilizes Playwright's `asyncio` engine while blocking unnecessary images, stylesheets, and fonts to maximize throughput.
+* **Database Persistence:** Non-blocking asynchronous SQLite persistence layer using `aiosqlite`.
+* **Automated Data Exports:** Generates clean, structured local CSV and JSON report artifacts upon pipeline completion.
+* **Streamlit Monitoring Dashboard:** Interactive web interface to view, search, and filter extracted telemetry and scraped dataset records in real-time.
+* **Container Ready:** Fully Dockerized using official Playwright Python base images for seamless execution in CI/CD runners or cloud environments.
+* **Streamlit Dashboard:** Interactive web interface for real-time data inspection.
 
 ## Requirements
 
