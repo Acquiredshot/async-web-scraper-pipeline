@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+  <rect width="960" height="520" rx="12" fill="#111827"/>
+  <path d="M0 12a12 12 0 0 1 12-12h936a12 12 0 0 1 12 12v34H0z" fill="#263244"/>
+  <circle cx="24" cy="23" r="7" fill="#ff5f57"/>
+  <circle cx="48" cy="23" r="7" fill="#febc2e"/>
+  <circle cx="72" cy="23" r="7" fill="#28c840"/>
+  <text x="480" y="28" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="14">Playwright Scraper — successful run</text>
+  <g font-family="Cascadia Mono, Consolas, monospace" font-size="16">
+    <text x="28" y="86" fill="#94a3b8">INFO</text>
+    <text x="78" y="86" fill="#e2e8f0">Initializing local database</text>
+    <text x="28" y="120" fill="#94a3b8">INFO</text>
+    <text x="78" y="120" fill="#e2e8f0">Starting Playwright data extraction pipeline</text>
+    <text x="28" y="154" fill="#38bdf8">INFO</text>
+    <text x="78" y="154" fill="#e2e8f0">Navigating to target page</text>
+  </g>
+  <rect x="24" y="177" width="912" height="116" rx="8" fill="#172033" stroke="#334155"/>
+  <text x="44" y="207" fill="#7dd3fc" font-family="Segoe UI, sans-serif" font-size="19" font-weight="600">Playwright Scraper</text>
+  <text x="44" y="245" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="14">STATUS</text>
+  <text x="44" y="272" fill="#4ade80" font-family="Cascadia Mono, Consolas, monospace" font-size="16">Saved 10/10</text>
+  <text x="294" y="245" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="14">TARGET</text>
+  <text x="294" y="272" fill="#e2e8f0" font-family="Cascadia Mono, Consolas, monospace" font-size="15">https://quotes.toscrape.com/js/</text>
+  <text x="777" y="245" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="14">RECORDS SAVED</text>
+  <text x="777" y="272" fill="#4ade80" font-family="Cascadia Mono, Consolas, monospace" font-size="16">10</text>
+  <text x="28" y="334" fill="#e2e8f0" font-family="Cascadia Mono, Consolas, monospace" font-size="16">Extracting quotes</text>
+  <rect x="28" y="350" width="740" height="12" rx="6" fill="#334155"/>
+  <rect x="28" y="350" width="740" height="12" rx="6" fill="#22c55e"/>
+  <text x="786" y="362" fill="#4ade80" font-family="Cascadia Mono, Consolas, monospace" font-size="15">100%</text>
+  <text x="28" y="414" fill="#38bdf8" font-family="Cascadia Mono, Consolas, monospace" font-size="16">INFO</text>
+  <text x="78" y="414" fill="#e2e8f0" font-family="Cascadia Mono, Consolas, monospace" font-size="16">Scraping completed</text>
+  <text x="28" y="450" fill="#38bdf8" font-family="Cascadia Mono, Consolas, monospace" font-size="16">INFO</text>
+  <text x="78" y="450" fill="#4ade80" font-family="Cascadia Mono, Consolas, monospace" font-size="16">Pipeline completed successfully</text>
+  <text x="78" y="482" fill="#94a3b8" font-family="Cascadia Mono, Consolas, monospace" font-size="13">Reports: reports/scraped_items.csv · reports/scraped_items.json · logs/pipeline.jsonl</text>
+</svg>
